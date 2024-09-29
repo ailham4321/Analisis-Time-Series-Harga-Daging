@@ -1,0 +1,33 @@
+---
+title: "R Notebook"
+output: html_notebook
+author: "Abdillah Ilham"
+date: "5003211069"
+---
+
+
+```{r}
+library(readxl)
+```
+
+```{r}
+df = read.csv("Harga Daging.csv")
+str(df)
+```
+
+
+```{r}
+ggplot(data = df, aes(x = )) + geom_line(aes(y = value, colour = variable)) +
+       scale_colour_manual(values = c("blue", "red"))
+```
+
+
+
+
+
+
+
+
+
+
+
